@@ -1,7 +1,16 @@
-.App {
-  text-align: center;
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.detailsCard{
+  background-color: transparent;
+  border: 5px solid gray;
+  padding: 20px;
+  text-align: center;
+  min-width: 60%;
+  max-width: 80%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +20,29 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.imageContainer{
+  border: 4px solid white;
+}
+span{
+  color: black;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 500;
+}
+h1{
+  color: blue;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+p{
+  color: blue;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
 }
 
 .App-header {
@@ -35,4 +67,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.heading {
+ color: darkslategray;
+}
+
+
+
+.inputContainer{
+  background-color: lightcoral;
+  height: 25%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid blueviolet;
+  margin: 20px;
+  padding: 30px;
+
+}
+
+.inputEle{
+  height: 30px;
+  width: 50%;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.buttonStyling{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 3px solid black;
+  font-family: sans-serif;
+  font-weight: bold;
 }
